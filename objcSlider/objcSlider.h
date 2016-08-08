@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char objcSliderVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcSlider/PublicHeader.h>
 
-
+#import <objcSlider/UISlider+VDTrackHeight.h>
+#import <objcSlider/UISlider+VDValue.h>

@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6408ED1D5816DD00652BAC /* objcSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6408EC1D5816DD00652BAC /* objcSlider.h */; };
+		FE6408ED1D5816DD00652BAC /* objcSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6408EC1D5816DD00652BAC /* objcSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6408F41D5816DD00652BAC /* objcSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6408E91D5816DD00652BAC /* objcSlider.framework */; };
 		FE6408F91D5816DD00652BAC /* objcSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6408F81D5816DD00652BAC /* objcSliderTests.m */; };
+		FE6409061D5816FD00652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6409031D5816FD00652BAC /* Cartfile */; };
+		FE6409071D5816FD00652BAC /* objcSlider.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6409041D5816FD00652BAC /* objcSlider.podspec */; };
+		FE64090B1D58172F00652BAC /* UISlider+VDTrackHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6409091D58172F00652BAC /* UISlider+VDTrackHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE64090C1D58172F00652BAC /* UISlider+VDTrackHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64090A1D58172F00652BAC /* UISlider+VDTrackHeight.m */; };
+		FE64090F1D58177400652BAC /* UISlider+VDValue.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64090D1D58177400652BAC /* UISlider+VDValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6409101D58177400652BAC /* UISlider+VDValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64090E1D58177400652BAC /* UISlider+VDValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,13 @@
 		FE6408F31D5816DD00652BAC /* objcSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6408F81D5816DD00652BAC /* objcSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcSliderTests.m; sourceTree = "<group>"; };
 		FE6408FA1D5816DD00652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6409031D5816FD00652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6409041D5816FD00652BAC /* objcSlider.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcSlider.podspec; sourceTree = "<group>"; };
+		FE6409051D5816FD00652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6409091D58172F00652BAC /* UISlider+VDTrackHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+VDTrackHeight.h"; sourceTree = "<group>"; };
+		FE64090A1D58172F00652BAC /* UISlider+VDTrackHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+VDTrackHeight.m"; sourceTree = "<group>"; };
+		FE64090D1D58177400652BAC /* UISlider+VDValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+VDValue.h"; sourceTree = "<group>"; };
+		FE64090E1D58177400652BAC /* UISlider+VDValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+VDValue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,9 @@
 				FE6408EB1D5816DD00652BAC /* objcSlider */,
 				FE6408F71D5816DD00652BAC /* objcSliderTests */,
 				FE6408EA1D5816DD00652BAC /* Products */,
+				FE6409031D5816FD00652BAC /* Cartfile */,
+				FE6409041D5816FD00652BAC /* objcSlider.podspec */,
+				FE6409051D5816FD00652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +89,10 @@
 			children = (
 				FE6408EC1D5816DD00652BAC /* objcSlider.h */,
 				FE6408EE1D5816DD00652BAC /* Info.plist */,
+				FE6409091D58172F00652BAC /* UISlider+VDTrackHeight.h */,
+				FE64090A1D58172F00652BAC /* UISlider+VDTrackHeight.m */,
+				FE64090D1D58177400652BAC /* UISlider+VDValue.h */,
+				FE64090E1D58177400652BAC /* UISlider+VDValue.m */,
 			);
 			path = objcSlider;
 			sourceTree = "<group>";
@@ -93,6 +113,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64090F1D58177400652BAC /* UISlider+VDValue.h in Headers */,
+				FE64090B1D58172F00652BAC /* UISlider+VDTrackHeight.h in Headers */,
 				FE6408ED1D5816DD00652BAC /* objcSlider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6409071D5816FD00652BAC /* objcSlider.podspec in Resources */,
+				FE6409061D5816FD00652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6409101D58177400652BAC /* UISlider+VDValue.m in Sources */,
+				FE64090C1D58172F00652BAC /* UISlider+VDTrackHeight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
